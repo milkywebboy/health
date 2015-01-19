@@ -73,14 +73,11 @@ class ViewController: UIViewController, UITextFieldDelegate  {
     func onClickMyButton(sender: UIButton){
         if(sender.tag == 1){
             readData()
+            
         }
         else if(sender.tag == 2){
             let myHeartStr: NSString = myWriteHeartField.text
             writeData(myHeartStr.doubleValue)
-            
-            // 書き込み時にデータをuser defaultに保存
-            var def = NSUserDefaults(suiteName: "group.jp.techfund")
-            def?.setObject(myHeartStr, forKey: "heartRate")
             
         }
     }
@@ -131,8 +128,16 @@ class ViewController: UIViewController, UITextFieldDelegate  {
                 (query: HKStatisticsQuery!, result: HKStatistics!, error: NSError!) in
                 dispatch_async(dispatch_get_main_queue(),{
                     self.myReadHeartField.text = "最小:\(result.minimumQuantity()) 最大:\(result.maximumQuantity())"
+                    
+                    // 読み込み時にデータをuser defaultに保存
+                    var myHeartStr = result.averageQuantity()
+                    var def = NSUserDefaults(suiteName: "group.jp.techfund")
+                    def?.setObject(myHeartStr, forKey: "heartRate")
                 })
         })
+        
+        
+        
         self.myHealthStore.executeQuery(query)
     }
     

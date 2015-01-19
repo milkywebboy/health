@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="health_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="132" height="111" alignment="center" text="Label" textAlignment="center" id="OBJ-Cl-UUK">
+                            <fontDescription key="font" type="system" pointSize="80"/>
+                        </label>
+                        <label width="135" alignment="left" text="Label" textAlignment="right" id="Wdz-ZR-1x7">
+                            <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="label1" destination="OBJ-Cl-UUK" id="tMG-EY-pzS"/>
+                        <outlet property="label2" destination="Wdz-ZR-1x7" id="0Gb-mF-qdC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="342" y="202"/>
+        </scene>
+    </scenes>
+</document>

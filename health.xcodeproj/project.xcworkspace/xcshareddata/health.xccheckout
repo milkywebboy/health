@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>75C1BD91-254B-4F7F-A4B3-08E6E84DAB48</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2E53534F550A469E1FC8475813B1B192C4F61C59</key>
+		<string>https://github.com/TECHFUND/health.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2E53534F550A469E1FC8475813B1B192C4F61C59</key>
+		<string>health/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TECHFUND/health.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2E53534F550A469E1FC8475813B1B192C4F61C59</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2E53534F550A469E1FC8475813B1B192C4F61C59</string>
+			<key>IDESourceControlWCCName</key>
+			<string>health</string>
+		</dict>
+	</array>
+</dict>
+</plist>
